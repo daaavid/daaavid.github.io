@@ -1,7 +1,7 @@
 # daaavid.github.io
 
 ####Journal, Week 2
-Last week's homework was informative. A bunch of work on tableviews and cells. The SHIELD Hero tracker intro helped with detail views transitioning from a table view. I'm getting comfortable with additional class relations. The calculator assignment really solidified that concept for me. Seems amazing for keeping things neat and tidy. The calculator app was really easy at first glance, but getting multiple operators in a row working was a pain.
+Last week's homework was informative. A bunch of work on tableviews and cells. The SHIELD Hero tracker assignment helped with detail views transitioning from a table view. I'm getting comfortable with additional class relations. The calculator assignment really solidified that concept for me. Seems amazing for keeping things neat and tidy. The calculator app was really easy at first glance, but getting multiple operators in a row working was a pain.
 
 ##Calculator
 ######(a quick and dirty tutorial)
