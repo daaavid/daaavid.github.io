@@ -8,7 +8,7 @@ Last week's homework was informative. A bunch of work on tableviews and cells. T
 
 
 
-In the calculator app, we were tasked to obviously, make a calculator. The caveat was that we needed to wholly separate the view controller from the actual working guts of the app, which was a relatively novel way of doing things.
+In the calculator app, we were tasked to obviously, make a calculator. The caveat was that we needed to wholly separate the view controller from the actual working guts of the app, which was a relatively novel way of doing things, at least compared to our some of our earlier assignments.
 
 So let me walk you, the reader, through a quick run down of this app. Ignore the stuff I collapsed, it's unnecessary for the purposes of the demonstration.
 
