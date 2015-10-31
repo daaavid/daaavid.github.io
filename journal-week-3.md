@@ -9,6 +9,8 @@ Let's get started with a brand spankin' new xcode project.
 
 ![img1](http://i.imgur.com/YQWah64.png)
 
+
+--------
 ![img2](http://i.imgur.com/yhgWCMt.png)
 
 First, we'll take a look at the storyboard. Drag a `Label` in and just stick it anywhere. Go ahead and set up a few constraints so xcode doesn't complain. I used center horizontally and vertically in container.
