@@ -11,17 +11,17 @@ Let's get started with a brand spankin' new xcode project.
 
 ![img2](http://i.imgur.com/yhgWCMt.png)
 
-First, we'll take a look at the storyboard. Drag a ``Label`` in and just stick it anywhere. Go ahead and set up a few constraints so xcode doesn't complain. I used center horizontally and vertically in container.
+First, we'll take a look at the storyboard. Drag a `Label` in and just stick it anywhere. Go ahead and set up a few constraints so xcode doesn't complain. I used center horizontally and vertically in container.
 
 Head into the viewcontroller and we'll start setting up the code.
 
 ![img3](http://i.imgur.com/KR8Lt3j.png)
 
-Set up your label with an ``IBOutlet`` and then go ahead and make an empty function called "animateLabel" and call it inside of viewDidLoad.
+Set up your label with an `IBOutlet` and then go ahead and make an empty function called `animateLabel` and call it inside of viewDidLoad.
 
 ![img4](http://i.imgur.com/5vALjq2.png)
 
-For this tutorial, we're just going to be using one of the built in animation functions: `animateWithDuration`. This is a function of the class ``UIView``, so start typing in `UIView.animateWithDuration` inside of the function you just created and let xcode fill in the rest for you.
+For this tutorial, we're just going to be using one of the built in animation functions: `animateWithDuration`. This is a function of the class `UIView`, so start typing in `UIView.animateWithDuration` inside of the function you just created and let xcode fill in the rest for you.
 
 ![img5](http://i.imgur.com/cu5TNFv.png)
 
