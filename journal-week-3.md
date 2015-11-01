@@ -1,7 +1,7 @@
 ##Simple Swifty Animation
 ######(a quick and dirty tutorial)
 
-![gif1](http://i.imgur.com/L3isZaX.gif)
+![gif1](http://i.imgur.com/mIh1BId.gif)
 
 Pretty cool, right? Today, I'll be teaching you how to do this sort of slidey widey animation thing.
 
