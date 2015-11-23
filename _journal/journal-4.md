@@ -4,15 +4,9 @@ title: Journal 4
 ---
 
 Prompt:
-
-<p>
-
-Since we just finished a week of assignments that were entirely group-based, reflect on the differences between collaborative and solitary coding.
-
-<p>
-
-
-
+    ---
+    Since we just finished a week of assignments that were entirely group-based, reflect on the differences between collaborative and solitary coding....
+    ---
 >How do you approach the planning, design, and writing phases differently when you're working alone vs. in a group?
 
 My planning process when solo is nonexistent; I straightaway start on the problem, doing the things I can, and figuring out the issues as I go along. My design process is similar. Having a partner definitely required a different approach. It was good to have a different mouth and set of eyes and ears to contribute toward our project.
