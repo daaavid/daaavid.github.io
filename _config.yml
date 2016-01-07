@@ -32,7 +32,7 @@ color:
 # Footer settings
 footer:
   copyright: Dr. Henry Jekyll
-  location: Location
+  location: Contact
   social: Around the Web
   credits: Credits
 
@@ -47,8 +47,10 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Downtown
-  - line: Orlando, FL 32801
+  - line: david.j.c.johnson@gmail.com
+  - line: (920) 285 6700
+  - line:
+  - line: Orlando, FL
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
