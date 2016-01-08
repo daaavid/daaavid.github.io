@@ -18,6 +18,6 @@ alt: image-alt
 project-date: November 2015
 client: The Iron Yard
 category: Objective C
-description: Coming Soon!
+description: <p>Description coming soon! :)</p>
 
 ---

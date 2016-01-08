@@ -18,6 +18,6 @@ alt: image-alt
 project-date: October 2015
 client: The Iron Yard
 category: Swift
-description: Coming Soon!
+description: <p>Description coming soon! :)</p>
 
 ---
