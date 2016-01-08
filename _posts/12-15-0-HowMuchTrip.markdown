@@ -12,7 +12,7 @@ carouselImg5: /HowMuchTrip/5.png
 carouselImg6: /HowMuchTrip/6.png
 carouselImg7: /HowMuchTrip/7.png
 carouselImg8: /HowMuchTrip/8.png
-presentationImg: /HowMuchTrip/3.png
+presentationImg: /HowMuchTrip/4.png
 alt: image-alt
 project-date: December 2015
 client: The Iron Yard

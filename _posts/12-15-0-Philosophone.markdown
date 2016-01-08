@@ -4,6 +4,7 @@ modal-id: 4
 title: Philosophone
 date: 2015-12-1
 carouselImg1: /Philosophone/2.png
+carouselImg1: /Philosophone/2.png
 carouselImg2: /Philosophone/2.png
 carouselImg3: /Philosophone/2.png
 carouselImg4: /Philosophone/2.png

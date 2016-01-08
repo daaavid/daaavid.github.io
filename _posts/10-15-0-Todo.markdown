@@ -3,14 +3,14 @@ layout: default
 modal-id: 6
 title: Todo
 date: 2015-01-10
-carouselImg1:
-carouselImg2:
-carouselImg3:
-carouselImg4:
-carouselImg5:
-carouselImg6:
-carouselImg7:
-carouselImg8:
+carouselImg1: /Todo/4.png
+carouselImg2: /Todo/4.png
+carouselImg3: /Todo/4.png
+carouselImg4: /Todo/4.png
+carouselImg5: /Todo/4.png
+carouselImg6: /Todo/4.png
+carouselImg7: /Todo/4.png
+carouselImg8: /Todo/4.png
 presentationImg: /Todo/4.png
 alt: image-alt
 project-date: October 2015
