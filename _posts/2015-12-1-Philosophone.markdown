@@ -3,6 +3,7 @@ layout: default
 modal-id: 4
 title: Philosophone
 date: 2015-12-1
+carouselImg0: /Philosophone/2.png
 carouselImg1: /Philosophone/2.png
 carouselImg1: /Philosophone/2.png
 carouselImg2: /Philosophone/2.png
@@ -17,6 +18,6 @@ alt: image-alt
 project-date: December 2015
 client: The Iron Yard
 category: Swift
-description: Coming Soon!
+description: <p>Coming Soon! :)</p>
 
 ---
