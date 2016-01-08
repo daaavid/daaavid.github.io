@@ -2,7 +2,8 @@
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: /Philosophone/2.png
+img: /Philosophone/3.png
+presentationImg: /Philosophone/2.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

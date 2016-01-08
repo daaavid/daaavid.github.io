@@ -2,9 +2,9 @@
 title: David Johnson
 email: david.j.c.johnson@gmail.com
 url: https://daaavid.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Mobile Dev David Johnson's portfolio site."
 skills: "Mobile Developer - Swift - Objective C"
-meta_author: LastName FirstName
+meta_author: Johnson David
 
 # Google webmaster tools
 google_verify:
@@ -24,10 +24,10 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 3faeb2 #18bc9c #80B3FF
+  primary-rgb: "25, 68, 70" #"24,288,156" #"128,179,255"
+  secondary: 353530 #2c3e50 #FD6E8A
+  secondary-dark: 252521 #233140 #A2122F
 
 # Footer settings
 footer:
@@ -47,10 +47,19 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
+  - line: David Johnson
   - line: david.j.c.johnson@gmail.com
-  - line: (920) 285 6700
+  - line: (920) 285-6700
   - line:
   - line: Orlando, FL
+
+# Postal address (add as many lines as necessary)
+#  address:
+#    - line: David Johnson
+#    - line: david.j.c.johnson@gmail.com
+#    - line: (920) 285-6700
+#    - line:
+#    - line: Orlando, FL
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
