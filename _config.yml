@@ -4,7 +4,7 @@ email: david.j.c.johnson@gmail.com
 url: https://daaavid.github.io
 description: "Mobile Dev David Johnson's portfolio site."
 skills: "Mobile Developer - Swift - Objective C"
-meta_author: Johnson David
+meta_author: Johnson, David
 
 # Google webmaster tools
 google_verify:
@@ -32,7 +32,7 @@ color:
 # Footer settings
 footer:
   copyright: Dr. Henry Jekyll
-  location: Contact
+  contactHeader: Contact
   social: Around the Web
   credits: Credits
 
@@ -45,8 +45,8 @@ social:
   - title: linkedin
     url: https://www.linkedin.com/in/david-johnson-8b4783a7
 
-# Postal address (add as many lines as necessary)
-address:
+# Contact details
+contactDetails:
   - line: David Johnson
   - line: david.j.c.johnson@gmail.com
   - line: (920) 285-6700

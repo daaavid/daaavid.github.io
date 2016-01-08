@@ -5,11 +5,11 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.location }}</h3>
+                        <h3>{{ site.footer.contactHeader }}</h3>
                         <p>
-                            {% for contactDetail in site.address %}
-                                {{ contactDetail.line }} <br>
-		                    {% endfor %}
+                          {% for contactDetail in site.contactDetails %}
+                              {{ contactDetail.line }} <br>
+		                      {% endfor %}
                         </p>
                     </div>
                     <div class="footer-col col-md-4">

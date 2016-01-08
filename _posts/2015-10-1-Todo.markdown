@@ -3,6 +3,7 @@ layout: default
 modal-id: 6
 title: Todo
 date: 2015-01-10
+carouselId: TodoCarousel
 carouselImg1: /Todo/4.png
 carouselImg2: /Todo/4.png
 carouselImg3: /Todo/4.png

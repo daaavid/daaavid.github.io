@@ -3,6 +3,7 @@ layout: default
 modal-id: 3
 title: Forecaster
 date: 2015-10-2
+carouselId: ForecasterCarousel
 carouselImg1: Forecaster/3.png
 carouselImg2: Forecaster/3.png
 carouselImg3: Forecaster/3.png

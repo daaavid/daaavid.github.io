@@ -3,6 +3,7 @@ layout: default
 modal-id: 2
 title: Movie Mania
 date: 2015-11-2
+carouselId: MovieManiaCarousel
 carouselImg0: /MovieMania/1.png
 carouselImg1: /MovieMania/2.png
 carouselImg2: /MovieMania/3.png

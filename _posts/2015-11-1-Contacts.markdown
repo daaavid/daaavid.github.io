@@ -3,6 +3,7 @@ layout: default
 modal-id: 5
 title: Contacts
 date: 2015-11-1
+carouselId: ContactsCarousel
 carouselImg0: /Contacts/1.png
 carouselImg1: /Contacts/1.png
 carouselImg2: /Contacts/1.png

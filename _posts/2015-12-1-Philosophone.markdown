@@ -3,6 +3,7 @@ layout: default
 modal-id: 4
 title: Philosophone
 date: 2015-12-1
+carouselId: PhilosophoneCarousel
 carouselImg0: /Philosophone/2.png
 carouselImg1: /Philosophone/2.png
 carouselImg1: /Philosophone/2.png

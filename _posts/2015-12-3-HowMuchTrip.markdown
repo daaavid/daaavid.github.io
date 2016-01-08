@@ -3,6 +3,7 @@ layout: default
 modal-id: 1
 title: How Much Trip
 date: 2015-12-3
+carouselId: HowMuchTripCarousel
 carouselImg0: /HowMuchTrip/0.png
 carouselImg1: /HowMuchTrip/1.png
 carouselImg2: /HowMuchTrip/2.png
