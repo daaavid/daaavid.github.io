@@ -4,19 +4,21 @@ modal-id: 6
 title: Todo
 date: 2015-01-10
 carouselId: TodoCarousel
-carouselImg1: /Todo/4.png
-carouselImg2: /Todo/4.png
+carouselImg0: /Todo/1.png
+carouselImg1: /Todo/2.png
+carouselImg2: /Todo/3.png
 carouselImg3: /Todo/4.png
-carouselImg4: /Todo/4.png
-carouselImg5: /Todo/4.png
-carouselImg6: /Todo/4.png
-carouselImg7: /Todo/4.png
-carouselImg8: /Todo/4.png
+carouselImg4: /Todo/5.png
+carouselImg5: /Todo/6.png
+carouselImg6: /Todo/7.png
+carouselImg7: /Todo/1.png
+carouselImg8: /Todo/2.png
 presentationImg: /Todo/4.png
 alt: image-alt
 project-date: October 2015
-client: Start Bootstrap
-category: Web Development
-description: <p>Description coming soon! :)</p>
-
+client: The Iron Yard
+clientURL: https://www.theironyard.com
+category: Swift
+description: <p> One of my earliest apps; Todo is exactly what is says on the tin&#58; a todo app (everyone has to have made one, right?). Users can add and edit entries and set due-by dates for them. They also have the option to set notifications to remind them of these entries. </br></br> I used CoreData for data persistence and added Local Notifications a bit later to spice it up a little.</p>
+technologies: <li>CoreData</li> <li>Local Notifications</li>
 ---

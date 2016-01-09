@@ -15,7 +15,7 @@
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
 
-                            <div id="{{ post.carouselId }}" class="carousel slide" data-ride="carousel" data-interval="3000" style = " margin: 0 auto">
+                            <div id="{{ post.carouselId }}" class="carousel slide" data-ride="carousel" data-interval="3200" style = " margin: 0 auto">
   <!-- Indicators -->
                               <ol class="carousel-indicators">
                                 <li data-target="#{{ post.carouselId }}" data-slide-to="0" class="active"></li>
@@ -85,17 +85,21 @@
                               </a>
                             </div>
 
-
-
                             <!--
                             old code - single image
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive center-block" alt="{{ post.alt }}">
                             -->
 
                             <p>{{ post.description }}</p>
+                            </br>
+
+                            <h4 style="text-align:left">&nbsp;&nbsp;&nbsp;Technologies</h4>
+                            <ul style="text-align:left">{{ post.technologies }}</ul>
+
+
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="https://www.theironyard.com">{{ post.client }}</a>
+                                    <strong><a href="{{ post.clientURL }}" target="_blank">{{ post.client }}</a>
                                     </strong>
                                 </li>
                                 <li>Date:
