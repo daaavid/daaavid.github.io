@@ -54,6 +54,24 @@ contactDetails:
   - line:
   - line: Orlando, FL
 
+aboutMeLanguages:
+  - line: Swift
+  - line: Objective C
+  - line: HTML and CSS
+
+aboutMeTools:
+  - line: Xcode
+  - line: Github
+  - line: CocoaPods
+  - line: Atom
+  - line: Jekyll
+  - line: Bootstrap
+
+aboutMeIAm:
+  - line: Passionate about programming and development
+  - line: Eager to take on new challenges
+  - line: Determined and self-motivated 
+
 # Postal address (add as many lines as necessary)
 #  address:
 #    - line: David Johnson

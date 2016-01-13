@@ -20,14 +20,42 @@
                     learned the essentials of iOS Development. Despite having little
                     prior programming experience, I swiftly grasped the material
                     and concepts and took it upon myself to research new material
-                    in my free time. Because of this, I quickly became an consultant
+                    in my free time. Because of this, I quickly became a consultant
                     to my fellow students.</br></br>
                     I have a passion for programming and development; I'm excited
                     to earn a position where I can take on new challenges and
                     channel this enthusiasm.</br></br>
                     I'm really comfy with Swift, decent with Objective C, and know enough HTML to have built this website!
                     I'm currently seeking a Junior Developer position in or near
-                    Orlando, FL, but am open to relocation!
+                    Orlando, FL, but am open to relocation.
+
+                    <div class="row">
+                      <div class="footer-col col-md-4">
+                        <h4> &nbsp;&nbsp;   Languages</h4>
+                        <ul>
+                          {% for element in site.aboutMeLanguages %}
+                            <li>{{ element.line }}</li>
+                          {% endfor %}
+                        </ul>
+                      </div>
+                      <div class="footer-col col-md-4">
+                        <h4> &nbsp;&nbsp;   What I use</h4>
+                        <ul>
+                          {% for element in site.aboutMeTools %}
+                            <li>{{ element.line }}</li>
+                          {% endfor %}
+                        </ul>
+                      </div>
+                      <div class="footer-col col-md-4">
+                        <h4> &nbsp;&nbsp;   I am</h4>
+                        <ul>
+                          {% for element in site.aboutMeIAm %}
+                            <li>{{ element.line }}</li>
+                          {% endfor %}
+                        </ul>
+                      </div>
+                    </div>
+
                     </br></br></br></br></br>
                   </p>
                     <!-- <p> -->
@@ -48,10 +76,11 @@
                   <p>
                     I learned the essentials of iOS Development in an immersive 12-week course at The Iron Yard in Orlando. Hands-on, rigorous, and intense, the course had us working deeply with Github and Xcode and learning and coding with Swift and Objective C 10-12 hours a day. By the end of the first week, the homework for each night was a light (but full-featured) iOS application.
                   </br></br>
-                    Gained experience in:
+                    <h4> &nbsp;&nbsp; Gained experience in</h4>
                     <ul>
                     <li> Swift </li>
                     <li> Objective C </li>
+                    <li> Xcode </li>
                     <li> Github </li>
                     <li> RESTful APIs </li>
                     <li> CoreData </li>
