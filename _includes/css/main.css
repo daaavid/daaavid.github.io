@@ -44,6 +44,8 @@ hr.star-primary {
     border: 0;
     border-top: solid 5px;
     text-align: center;
+    position: relative;
+    z-index: 1
 }
 
 hr.star-light:after,
@@ -79,6 +81,27 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.img-cropped {
+  width: 332;
+  height: 280;
+  overflow: hidden;
+  z-index: -1
+}
+
+.phone {
+    background-position: 50% 50%;
+    position: relative;
+    top: 15px;
+    right: -900px;
+}
+
+.phone-screen {
+    position: relative;
+    width: 97%;
+    top: 17.7%;
+    left: 1.5%;
+}
+
 header {
     text-align: center;
     color: #fff;
@@ -101,11 +124,15 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    position: relative;
+    z-index: 1
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    position: relative;
+    z-index: 1
 }
 
 @media(min-width:768px) {
