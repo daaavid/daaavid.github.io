@@ -19,6 +19,7 @@ project-date: October 2015
 client: The Iron Yard
 clientURL: https://www.theironyard.com
 category: Swift
+sourceCodeURL: https://github.com/daaavid/Portfolio-Apps/tree/master/Todo
 description: <p> One of my earliest apps; Todo is exactly what is says on the tin&#58; a todo app (everyone has to have made one, right?). Users can add and edit entries and set due-by dates for them. They also have the option to set notifications to remind them of these entries. </br></br> I used CoreData for data persistence and added Local Notifications a bit later to spice it up a little.</p>
 technologies: <li>CoreData</li> <li>Local Notifications</li>
 ---
