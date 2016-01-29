@@ -5,7 +5,7 @@ post-header-img: img/class-bg.png
 logo-img: img/3crosslogo.png
 email: your-email@yourdomain.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: ""
+baseurl: "CalvaryWebJekyll"
 url: "http://yourdomain.com"
 twitter_username: SBootstrap
 github_username:  davidtmiller
