@@ -49,12 +49,12 @@ social:
 # Contact details
 contactDetails:
   - line: David Johnson
-  - line: david@bronze5.net
+  - line: <a href="mailto:david@bronze5.net" target="_top">david@bronze5.net</a>
   - line: 920.285.6700
   - line:
   - line: Orlando, FL
   - line:
-  - line: <img src="http://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=BEGIN%3AVCARD%0AVERSION%3A2.1%0AFN%3ADavid+Johnson%0AN%3AJohnson%3BDavid%0ATEL%3BCELL%3A920-285-6700%0AEMAIL%3BHOME%3BINTERNET%3Adavid.j.c.johnson%40gmail.com%0AEND%3AVCARD%0A&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L" alt="qr code" / width="120" height="120">
+  - line: <img src="http://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=BEGIN%3AVCARD%0AVERSION%3A2.1%0AFN%3ADavid+Johnson%0AN%3AJohnson%3BDavid%0ATEL%3BCELL%3A920-285-6700%0AEMAIL%3BHOME%3BINTERNET%3Adavid%40bronze5.net%0AEND%3AVCARD%0A&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L" alt="qr code" / width="120" height="120">
 
 aboutMeLanguages:
   - line: Swift
