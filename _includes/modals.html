@@ -3,6 +3,11 @@
     <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
+
+              <hr class="btn-close" />
+
+
+
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -13,7 +18,9 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body" style="margin: 0 auto">
                             <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
+
+
+                            <hr class="logo-divider" style="margin-top:0px; margin-bottom:20px"/>
 
                             <div id="{{ post.carouselId }}" class="carousel slide" data-ride="carousel" data-interval="3200" style = " margin: 0 auto">
   <!-- Indicators -->
@@ -94,7 +101,7 @@
                             </br>
 
                             <h4 style="text-align:left">&nbsp;&nbsp;&nbsp;Technologies</h4>
-                            <ul style="text-align:left">{{ post.technologies }}</ul>
+                            <ul style="text-align:left" class="new-list">{{ post.technologies }}</ul>
 
 
                             <ul class="list-inline item-details">
