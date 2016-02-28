@@ -90,8 +90,8 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    /*color: #24EEFF;*/
-    color: #fff;
+    color: #24EEFF;
+    /*color: #fff;*/
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -140,6 +140,28 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #24EEFF;
+}
+
+.icon-bar {
+   background-color:#24EEFF !important;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: #24EEFF;
+}
+
+/* 3 bard */
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #fff;
+}
+/* background */
+.navbar-default .navbar-toggle {
+border-color: #ddd;
+background-color: black;
 }
 
 .intro {
@@ -513,11 +535,11 @@ section - portfolio
   outline: 0;
 }
 
-.carousel .carousel-control {
+.carousel, .carousel-control {
   visibility: hidden;
 }
 
-.carousel:hover .carousel-control {
+.carousel:hover, .carousel-control {
   visibility: visible;
 }
 
@@ -720,16 +742,4 @@ h5.nav-text {
   margin: 0 0 0;
   margin-top: 5px;
   font-weight: 400;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #24EEFF;
-}
-
-.icon-bar {
-   background-color:#24EEFF !important;
-}
-
-.navbar .navbar-toggle .icon-bar {
-  background-color: #24EEFF;
 }
