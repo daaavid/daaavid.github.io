@@ -133,7 +133,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: {{ site.color.primary-dark }};
+        background-color: #24EEFF;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -602,7 +602,7 @@ section - logo/other header stuff
 .img-logo-big {
   height: 160px;
   margin-bottom: 20px;
-  margin-top: -100px;
+  margin-top: 0px;
 }
 
 .img-header-small {
