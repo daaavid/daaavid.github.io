@@ -540,7 +540,7 @@ section - portfolio
 }
 
 .carousel, .carousel-control {
-  visibility: hidden;
+  visibility: visible;
 }
 
 .carousel:hover, .carousel-control {
@@ -550,6 +550,7 @@ section - portfolio
 .carousel-indicators li {
     background-color: #017D9C;
 }
+
 .carousel-indicators .active {
     background-color: #24EEFF;
 }
