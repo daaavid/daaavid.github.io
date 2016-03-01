@@ -614,6 +614,10 @@ form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
 
+label {
+  font-family: sans-serif;
+}
+
 /*
 section - logo/other header stuff
 */
