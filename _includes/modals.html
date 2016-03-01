@@ -1,10 +1,10 @@
  <!-- Portfolio Modals -->
  {% for post in site.posts %}
     <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true" style="z-index:200;">
-        <div class="modal-content">
+        <div class="modal-content" style="z-index:200;">
             <div class="close-modal" data-dismiss="modal">
 
-              <hr class="btn-close" />
+              <a href="#"><hr class="btn-close" data-dismiss="modal"/></a>
 
                 <div class="lr">
                     <div class="rl">
@@ -20,7 +20,7 @@
                             <hr class="logo-divider" style="margin-top:0px; margin-bottom:20px"/>
 
                             <div id="{{ post.carouselId }}" class="carousel slide" data-ride="carousel" data-interval="3200" style = " margin: 0 auto">
-  <!-- Indicators -->
+                              <!-- Indicators -->
                               <ol class="carousel-indicators">
                                 <li data-target="#{{ post.carouselId }}" data-slide-to="0" class="active"></li>
                                 <li data-target="#{{ post.carouselId }}" data-slide-to="1"></li>
@@ -76,7 +76,6 @@
 
                               <!-- Left and right controls -->
 
-
                               <a class="left carousel-control" href="#{{ post.carouselId }}" role="button" data-slide="prev">
                                 <!-- <img src="img/nav/chevron_left.png" position="left" width = "128"> -->
                                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -89,10 +88,8 @@
                               </a>
                             </div>
 
-                            <!--
-                            old code - single image
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive center-block" alt="{{ post.alt }}">
-                            -->
+                            <!-- old code - single image
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive center-block" alt="{{ post.alt }}"> -->
 
                             <p>{{ post.description }}</p>
                             </br>
@@ -124,7 +121,7 @@
                                 </li>
 
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <a href="#"><hr class="btn-close" data-dismiss="modal"/></a>
                         </div>
                     </div>
                 </div>

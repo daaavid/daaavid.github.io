@@ -693,29 +693,30 @@ section.newSection {
 }
 
 .btn-close {
-  width:64px;
-  height:64px;
-  background: url(/img/buttons/button_close.png) no-repeat center center scroll;
-  background-size: 64px 64px;
+  margin-top: 34px;
+  width:56px;
+  height:56px;
+  background: url(/img/buttons/close.png) no-repeat center center scroll;
+  background-size: 56px 56px;
   border:0;
 }
 
 .btn-close:hover {
-  background: url(/img/buttons/button_close_hover.png) no-repeat center center scroll;
-  background-size: 64px 64px;
+  background: url(/img/buttons/close_hover.png) no-repeat center center scroll;
+  background-size: 56px 56px;
 }
 
 .btn-down {
-  margin-top: 60px;
+  margin-top: 80px;
   width:64px;
   height:64px;
-  background: url(/img/buttons/button_down.png) no-repeat center center scroll;
+  background: url(/img/buttons/down.png) no-repeat center center scroll;
   background-size: 64px 64px;
   border:0;
 }
 
 .btn-down:hover {
-  background: url(/img/buttons/button_down_hover.png) no-repeat center center scroll;
+  background: url(/img/buttons/down_hover.png) no-repeat center center scroll;
   background-size: 64px 64px;
 }
 
