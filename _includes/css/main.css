@@ -548,6 +548,7 @@ section - portfolio
   background: none !important;
   filter: progid: none !important;
   outline: 0;
+  cursor: default;
 }
 
 .carousel, .carousel-control {
@@ -757,6 +758,7 @@ section.newSection {
 .btn-down:hover {
   background: url(/img/buttons/down_hover.png) no-repeat center center scroll;
   background-size: 64px 64px;
+  cursor: pointer;
 }
 
 .btn-connect {
@@ -833,4 +835,25 @@ section {
 
 h2.new-section {
   margin-top: 120px;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.center-vertical {
+  position:absolute;
+  top:20%;
 }
