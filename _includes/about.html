@@ -8,13 +8,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-11 center">
+
 
                   {% for post in site.posts %}
                   {% if post.about %}
 
-                    <div class="col-lg-10 left" style="padding-bottom:20px">
-                      <img src="/img/resume_logos/{{ post.image }}" width="200" align="left" style="margin: 40px 40px" />
+                    <div class="col-lg-11 center">
+                      <img src="/img/resume_logos/{{ post.image }}" width="200" align="left" style="margin: 40px 40px; margin-top:0px;" />
                       <h3>
                         <a href="{{ post.url }}" target="_blank">
                           {{ post.title }}
@@ -65,7 +65,7 @@
                   {% endif %}
                   {% endfor %}
 
-                    </div>
+
                 </div>
             </div>
         </div>
