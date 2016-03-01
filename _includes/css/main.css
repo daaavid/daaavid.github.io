@@ -177,6 +177,8 @@ background-color: black;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    margin-bottom: 200px;
 }
 
 .intro .intro-body {
@@ -689,10 +691,6 @@ hr.logo-divider {
     z-index: 0
 }
 
-h2.new-section {
-  margin-top:100px;
-}
-
 ul.new-list {
   margin-top:-20px;
 }
@@ -794,5 +792,9 @@ img.portfolio-item-img:hover {
 }
 
 section {
-  margin-bottom: 200px
+  margin-bottom: 80px
+}
+
+h2.new-section {
+  margin-top: 120px;
 }
