@@ -3,7 +3,7 @@ experience: true
 layout: default
 date: 2015-01-10
 title: The Iron Yard
-url: https://www.theironyard.com
+urlpath: https://www.theironyard.com
 image: tiy.png
 
 contact: "407.358.6683 | 101 S Garland Ave #104, Orlando, FL"

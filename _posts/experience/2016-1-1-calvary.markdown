@@ -3,7 +3,7 @@ experience: true
 layout: default
 date: 2016-1-1
 title: Calvary Baptist Church
-url: http://saintpetercalvarybaptistchurch.org
+urlpath: http://saintpetercalvarybaptistchurch.org
 image: calvary.png
 
 contact: "507.931.4567 | 516 West Jefferson, St Peter, MN"

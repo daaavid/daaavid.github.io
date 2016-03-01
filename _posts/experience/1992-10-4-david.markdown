@@ -3,7 +3,6 @@ experience: true
 layout: default
 date: 1992-10-4
 title: David Johnson
-url:
 image: profile.png
 
 about: true

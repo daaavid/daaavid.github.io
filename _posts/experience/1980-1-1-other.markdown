@@ -3,7 +3,6 @@ experience: true
 layout: default
 date: 1980-1-1
 title: Other
-url: "#"
 image: other.png
 
 contact: ""
