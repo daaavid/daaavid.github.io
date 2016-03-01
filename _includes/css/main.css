@@ -695,13 +695,13 @@ section.newSection {
 .btn-close {
   width:64px;
   height:64px;
-  background: url(/img/button_close.png) no-repeat center center scroll;
+  background: url(/img/buttons/button_close.png) no-repeat center center scroll;
   background-size: 64px 64px;
   border:0;
 }
 
 .btn-close:hover {
-  background: url(/img/button_close_hover.png) no-repeat center center scroll;
+  background: url(/img/buttons/button_close_hover.png) no-repeat center center scroll;
   background-size: 64px 64px;
 }
 
@@ -709,13 +709,13 @@ section.newSection {
   margin-top: 60px;
   width:64px;
   height:64px;
-  background: url(/img/button_down.png) no-repeat center center scroll;
+  background: url(/img/buttons/button_down.png) no-repeat center center scroll;
   background-size: 64px 64px;
   border:0;
 }
 
 .btn-down:hover {
-  background: url(/img/button_down_hover.png) no-repeat center center scroll;
+  background: url(/img/buttons/button_down_hover.png) no-repeat center center scroll;
   background-size: 64px 64px;
 }
 
