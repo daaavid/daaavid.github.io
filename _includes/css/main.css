@@ -73,7 +73,8 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 0px;
+
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: {{ site.color.primary-dark }};
@@ -491,16 +492,26 @@ section - portfolio
 
 .portfolio-modal .close-modal {
     position: absolute;
-    top: 25px;
+    top: 50px;
     right: 25px;
-    width: 75px;
-    height: 75px;
+    width: 64px;
+    height: 64px;
     background-color: transparent;
+    background: url(/img/buttons/close.png) no-repeat center center scroll;
     cursor: pointer;
+
+    background-size: 64px 64px;
+
+    -o-transition:.3s ease-in-out;
+    -ms-transition:.3s ease-in-out;
+    -moz-transition:.3s ease-in-out;
+    -webkit-transition:.3s ease-in-out;
 }
 
 .portfolio-modal .close-modal:hover {
-    opacity: .3;
+    background: url(/img/buttons/close_hover.png) no-repeat center center scroll;
+    background-size: 64px 64px;
+    /*opacity: .3;*/
 }
 
 .portfolio-modal .close-modal .lr {
@@ -649,12 +660,13 @@ section - logo/other header stuff
   margin-top: 20px;
   padding: 0.5em;
   background-color: transparent;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+
+  -o-transition:.3s ease-in-out;
+  -ms-transition:.3s ease-in-out;
+  -moz-transition:.3s ease-in-out;
+  -webkit-transition:.3s ease-in-out;
   /* ...and now for the proper property */
-  transition:.5s;
+  transition:.3s ease-in-out;
 }
 
 .img-header-big:hover {
@@ -706,22 +718,24 @@ section.newSection {
 
 .btn-close {
   margin-top: 34px;
-  width:56px;
-  height:56px;
+  width:64px;
+  height:64px;
   background: url(/img/buttons/close.png) no-repeat center center scroll;
-  background-size: 56px 56px;
+  background-size: 64px 64px;
   border:0;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  /* ...and now for the proper property */
-  transition:.5s;
+
+  -o-transition:.3s ease-in-out;
+  -ms-transition:.3s ease-in-out;
+  -moz-transition:.3s ease-in-out;
+  -webkit-transition:.3s ease-in-out;
+
+  transition:.3s ease-in-out;
+  cursor: pointer;
 }
 
 .btn-close:hover {
   background: url(/img/buttons/close_hover.png) no-repeat center center scroll;
-  background-size: 56px 56px;
+  background-size: 64px 64px;
 }
 
 .btn-down {
@@ -731,12 +745,13 @@ section.newSection {
   background: url(/img/buttons/down.png) no-repeat center center scroll;
   background-size: 64px 64px;
   border:0;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+
+  -o-transition:.3s ease-in-out;
+  -ms-transition:.3s ease-in-out;
+  -moz-transition:.3s ease-in-out;
+  -webkit-transition:.3s ease-in-out;
   /* ...and now for the proper property */
-  transition:.5s;
+  transition:.3s ease-in-out;
 }
 
 .btn-down:hover {
@@ -784,12 +799,32 @@ ul.contactDetailsList:hover {
   /*padding: 0.5em;*/
 }
 
-img.portfolio-item-img {
-  margin:10px;
+/*img.portfolio-item-img {
+  padding:10px;
 }
 
 img.portfolio-item-img:hover {
-  margin:0px;
+  padding:0px;
+}*/
+
+img.portfolio-item-img {
+    padding-top: 10px;
+    margin-left: auto+20px;
+    z-index: 400;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+img.portfolio-item-img:hover {
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+     transform:scale(1.05);
 }
 
 section {

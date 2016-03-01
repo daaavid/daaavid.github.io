@@ -4,7 +4,7 @@
         <div class="modal-content" style="z-index:200;">
             <div class="close-modal" data-dismiss="modal">
 
-              <a href="#"><hr class="btn-close" data-dismiss="modal"/></a>
+              <!-- <a href="#"><hr class="btn-close" data-dismiss="modal"/></a> -->
 
                 <div class="lr">
                     <div class="rl">
@@ -37,39 +37,39 @@
                               <div class="carousel-inner" role="listbox">
 
                                 <div class="item active">
-                                  <img src="img/portfolio/{{ post.carouselImg0 }}" class = "center-block">
+                                  <img src="img/portfolio/{{ post.carouselImg0 }}" class="center-block portfolio-item-img">
                                 </div>
 
                                 <div class="item">
-                                  <img src="img/portfolio/{{ post.carouselImg1 }}" class = "center-block">
+                                  <img src="img/portfolio/{{ post.carouselImg1 }}" class="center-block portfolio-item-img">
                                 </div>
 
                                 <div class="item">
-                                  <img src="img/portfolio/{{ post.carouselImg2 }}" class = "center-block">
+                                  <img src="img/portfolio/{{ post.carouselImg2 }}" class="center-block portfolio-item-img">
                                 </div>
 
                                 <div class="item">
-                                  <img src="img/portfolio/{{ post.carouselImg3 }}" class = "center-block">
+                                  <img src="img/portfolio/{{ post.carouselImg3 }}" class="center-block portfolio-item-img">
                                 </div>
 
                                 <div class="item">
-                                  <img src="img/portfolio/{{ post.carouselImg4 }}" class = "center-block">
+                                  <img src="img/portfolio/{{ post.carouselImg4 }}" class="center-block portfolio-item-img">
                                 </div>
 
                                 <div class="item">
-                                  <img src="img/portfolio/{{ post.carouselImg5 }}" class = "center-block">
+                                  <img src="img/portfolio/{{ post.carouselImg5 }}" class="center-block portfolio-item-img">
                                 </div>
 
                                 <div class="item">
-                                  <img src="img/portfolio/{{ post.carouselImg6 }}" class = "center-block">
+                                  <img src="img/portfolio/{{ post.carouselImg6 }}" class="center-block portfolio-item-img">
                                 </div>
 
                                 <div class="item">
-                                  <img src="img/portfolio/{{ post.carouselImg7 }}" class = "center-block">
+                                  <img src="img/portfolio/{{ post.carouselImg7 }}" class="center-block portfolio-item-img">
                                 </div>
 
                                 <div class="item">
-                                  <img src="img/portfolio/{{ post.carouselImg8 }}" class = "center-block">
+                                  <img src="img/portfolio/{{ post.carouselImg8 }}" class="center-block portfolio-item-img">
                                 </div>
 
                               </div>
@@ -88,11 +88,18 @@
                               </a>
                             </div>
 
-                            <!-- old code - single image
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive center-block" alt="{{ post.alt }}"> -->
+                            <p>
+                              {{ post.description }}
+                            </p>
+                            <p>
+                              {% for line in post.API %}
 
-                            <p>{{ post.description }}</p>
-                            </br>
+                                Powered by <a href="{{ line.url }}" target="_blank"> {{ line.title }} API </a>
+                                <br /><br />
+
+                              {% endfor %}
+
+                            </p>
 
                             <h4 style="text-align:left">&nbsp;&nbsp;&nbsp;Technologies</h4>
                             <ul style="text-align:left" class="new-list">{{ post.technologies }}</ul>
@@ -121,7 +128,7 @@
                                 </li>
 
                             </ul>
-                            <a href="#"><hr class="btn-close" data-dismiss="modal"/></a>
+                            <hr class="btn-close" data-dismiss="modal"/>
                         </div>
                     </div>
                 </div>
