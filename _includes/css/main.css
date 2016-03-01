@@ -429,6 +429,8 @@ section - portfolio
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
+    padding: 0;
+    background-color: rgba(0,0,0,0.4);
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -644,6 +646,12 @@ section - logo/other header stuff
   margin-top: 20px;
   padding: 0.5em;
   background-color: transparent;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
 }
 
 .img-header-big:hover {
@@ -704,6 +712,12 @@ section.newSection {
   background: url(/img/buttons/close.png) no-repeat center center scroll;
   background-size: 56px 56px;
   border:0;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
 }
 
 .btn-close:hover {
@@ -718,6 +732,12 @@ section.newSection {
   background: url(/img/buttons/down.png) no-repeat center center scroll;
   background-size: 64px 64px;
   border:0;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
 }
 
 .btn-down:hover {
@@ -763,4 +783,12 @@ ul.contactDetailsList {
 ul.contactDetailsList:hover {
   background-color: rgba(0,0,0,0.4);
   /*padding: 0.5em;*/
+}
+
+img.portfolio-item-img {
+  margin:10px;
+}
+
+img.portfolio-item-img:hover {
+  margin:0px;
 }

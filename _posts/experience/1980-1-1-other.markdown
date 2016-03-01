@@ -1,0 +1,19 @@
+---
+experience: true
+layout: default
+date: 1980-1-1
+title: Other
+url: "#"
+image: other.png
+
+contact: ""
+
+job: ""
+dates: ""
+
+list1Title:
+list1Content:
+
+---
+
+If you'd like to check out my other (non-development related) skills, education, or experience, please check out my                                 <a href="https://www.linkedin.com/in/daaavid#background-experience" target="_blank">LinkedIn</a> or download my resume <a href="/resume.pdf" download>here.</a>

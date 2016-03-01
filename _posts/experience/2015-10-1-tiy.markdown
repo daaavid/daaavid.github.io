@@ -1,0 +1,39 @@
+---
+experience: true
+layout: default
+date: 2015-01-10
+title: The Iron Yard
+url: https://www.theironyard.com
+image: tiy.png
+
+contact: "407.358.6683 | 101 S Garland Ave #104, Orlando, FL"
+
+job: Mobile Engineering Student
+dates: October 2015 - January 2016
+
+list1Title: Gained experience in
+
+list1Content:
+- line: Swift
+- line: Objective C
+- line: Xcode
+- line: Github
+- line: RESTful APIs
+- line: CoreData
+- line: NSCoding
+- line: CocoaPods
+- line: Parse
+- line: Realm
+
+list2Title: " "
+
+list2Content:
+- line: Paired Programming
+- line: Group Projects (Team Programming)
+- line: UI/UX
+- line: Storyboard
+- line: Project/Task Management
+- line: Deadlines
+---
+
+I learned the essentials of iOS Development in an immersive 12-week course at The Iron Yard in Orlando. Hands-on, rigorous, and intense, the course had us working deeply with Xcode and Github and learning and coding with Swift and Objective C 10-12 hours a day. By the end of the first week, the homework for each night was a light (but full-featured) app.

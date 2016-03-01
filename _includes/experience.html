@@ -8,93 +8,56 @@
               <hr class="logo-divider" />
           </div>
 
-                <!-- CALVARY -->
-          <div class="col-lg-10 left">
-            <img src="/img/resume_logos/calvary.png" width="200" align="left" style="margin: 20px 40px">
-            <h3><a href="http://saintpetercalvarybaptistchurch.org" target="_blank">Calvary Baptist Church</a></h3>
-            <h4 class="short-margin"> 507.931.4567 | 516 West Jefferson, St Peter, MN </h4>
+          {% for post in site.posts %}
+          {% if post.about %}
+          {% else %}
+          {% if post.experience %}
+            <div class="col-lg-10 left" style="padding-bottom:60px">
+              <img src="/img/resume_logos/{{ post.image }}" width="200" align="left" style="margin: 40px 40px" />
+              <h3>
+                <a href="{{ post.url }}" target="_blank">
+                  {{ post.title }}
+                </a>
+              </h3>
 
-            <h4 style="margin-top:10px;">Web Developer</h4>
-            <h5 class="short-margin"> January 2016 - January 2016 </h5>
+              <h4 class="short-margin">{{ post.contact }}</h4>
 
-            <p class="short-margin">
-              As the sole developer on this project, I took on the full responsibility of developing the website for Calvary Baptist Church in St Peter, MN. I used Atom and Github for coding and version control, respectively. I used Photoshop for the various website image assets. I update the site regularly with messages from the pastor.
+              <h4 style="margin-top:10px">{{ post.job }}</h4>
+              <h5 class="short-margin">{{ post.dates }}</h5>
 
-              Check out the site <a href="http://saintpetercalvarybaptistchurch.org" target="_blank">here</a>.
-            </br></br>
-            </p>
+              <p class="short-margin">
+                {{ post.content }}
+              </p>
 
-            <div class="row short-margin">
-              <div class="footer-col col-md-4">
-                <h4> &nbsp;&nbsp; Gained experience in</h4>
-                <ul class="new-list">
-                  <li> Atom </li>
-                  <li> HTML </li>
-                  <li> CSS </li>
-                  <li> Photoshop </li>
-                  <li> Domain setup </li>
-                  <li> DNS setup </li>
-                </ul>
+              <div class="row" style="padding-top:20px;">
+                <div class="footer-col col-md-4">
+                  <h4> &nbsp;&nbsp; {{ post.list1Title }}</h4>
+                  <ul class="new-list">
+                    {% for line in post.list1Content %}
+                      <li>
+                        {{ line.line }}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                {% if post.list2Title %}
+                  <div class="footer-col col-md-4">
+                    <h4> &nbsp;&nbsp; {{ post.list2Title }}</h4>
+                    <ul class="new-list">
+                      {% for line in post.list2Content %}
+                        <li>
+                          {{ line.line }}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endif %}
               </div>
+
             </div>
-          </div>
-
-
-
-          <!-- TIY -->
-          <div class="col-lg-10 left" style="padding-top:40px;">
-            <img src="/img/resume_logos/tiy.png" height = "200" align="left" style="margin: 20px 40px" title="TIY Logo!">
-            <h3><a href="https://www.theironyard.com" target="_blank">The Iron Yard</a></h3>
-            <h4 class="short-margin"> 407.358.6683 | 101 S Garland Ave #104, Orlando, FL</h4>
-
-            <h4 style="margin-top:20px;">iOS Dev Student</h4>
-            <h5 class="short-margin"> October 2015 - January 2016 </h5>
-
-            <p class="short-margin">
-            <p style="margin-top:-20px;">
-              I learned the essentials of iOS Development in an immersive 12-week course at The Iron Yard in Orlando. Hands-on, rigorous, and intense, the course had us working deeply with Xcode and Github and learning and coding with Swift and Objective C 10-12 hours a day. By the end of the first week, the homework for each night was a light (but full-featured) app.
-            </br></br>
-            </p>
-
-            <div class="row short-margin">
-              <div class="footer-col col-md-4">
-                <h4> &nbsp;&nbsp; Gained experience in</h4>
-                <ul class="new-list">
-                  <li> Swift </li>
-                  <li> Objective C </li>
-                  <li> Xcode </li>
-                  <li> Github </li>
-                  <li> RESTful APIs </li>
-                  <li> CoreData </li>
-                  <li> NSCoding </li>
-                  <li> CocoaPods </li>
-                  <li> Parse </li>
-                  <li> Realm </li>
-                </ul>
-              </div>
-              <div class="footer-col col-md-4">
-                <h4> &nbsp;&nbsp; </h4>
-                <!-- <ul style="margin-top:-30px;"> -->
-                <ul class="new-list">
-                  <li> Paired Programming </li>
-                  <li> Group Projects (Team Programming)</li>
-                  <li> UI/UX </li>
-                  <li> Storyboarding </li>
-                  <li> Project/Task Management </li>
-                  <li> Deadlines </li>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-10 left">
-            </br></br>
-            <img src="img/resume_logos/other.png" alt="" height = "180" align="left" style="margin: 30px 30px">
-            <h3>Other</h3>
-            <p class="short-margin">
-              If you'd like to check out my other (non-development related) skills, education, or experience, please check out my                                 <a href="https://www.linkedin.com/in/daaavid#background-experience" target="_blank">LinkedIn</a> or download my resume <a href="/resume.pdf" download>here.</a>
-            </p>
-            <!-- <a href="https://www.linkedin.com/in/daaavid#background-experience" target="_blank"><img src="/img/connect/linkedin.png" height="64px" /></a> -->
-          </div>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
         </div>
       </div>
     </section>
