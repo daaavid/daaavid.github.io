@@ -792,3 +792,7 @@ img.portfolio-item-img {
 img.portfolio-item-img:hover {
   margin:0px;
 }
+
+section {
+  margin-bottom: 200px
+}
