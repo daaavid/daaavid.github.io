@@ -18,14 +18,16 @@
                     </li>
                     {% endfor %}
                 </ul>
-                <hr class="logo-divider" style="background:none;"/>
-                <ul style="list-style-type:none; padding:0">
-                  {% for contactDetail in site.contactDetails %}
-                  <li>
-                    <h5 style="margin-top:10px;margin-bottom:10px;">{{ contactDetail.line }}</h5>
-                  </li>
-                  {% endfor %}
-                </ul>
+
+                  <hr class="logo-divider" style="background:none;"/>
+                  <ul style="list-style-type:none; padding:0">
+                    {% for contactDetail in site.contactDetails %}
+                    <li>
+                      <h5 style="margin-top:10px;margin-bottom:10px;">{{ contactDetail.line }}</h5>
+                    </li>
+                    {% endfor %}
+                  </ul>
+                
             </div>
         </div>
     </section>
