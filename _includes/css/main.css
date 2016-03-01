@@ -29,7 +29,7 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 14px;
     font: "Lato";
     font-weight: lighter;
     font-family: sans-serif;
@@ -49,7 +49,7 @@ ul {
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 1.6;
     }
 }
