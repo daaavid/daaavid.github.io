@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 1
-title: How Much Trip
+title: HowMuchTrip
 date: 2015-12-3
 
 imgCount: 8

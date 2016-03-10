@@ -19,7 +19,18 @@
                                     <i class="fa fa-search-plus fa-3x" height = "560" width = "332"></i>
                                 </div>
                             </div>
-                              <img src="img/portfolio/{{ post.title }}/{{ post.presentationImg }}.png" class="img-responsive center-block" alt="{{ post.alt }}">
+                              {% if post.gifCount %}
+                              <div class="item iphone center-block" style="margin:40px">
+                                <img src="img/portfolio/{{ post.title }}/{{ post.presentationImg }}.gif" class="center-block img-iphone">
+                              </div>
+                              {% else %}
+                              <div class="center-block" style="margin:40px">
+                                <img src="img/portfolio/{{ post.title }}/{{ post.presentationImg }}.png" class="center-block" alt="{{ post.alt }}">
+                              </div>
+
+                              {% endif %}
+
+
                         </a>
                     </div>
                 {% endif %}

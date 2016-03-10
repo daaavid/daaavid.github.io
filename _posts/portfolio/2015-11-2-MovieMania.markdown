@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 2
-title: Movie Mania
+title: MovieMania
 date: 2015-11-2
 
 imgCount: 5
