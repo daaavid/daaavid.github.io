@@ -706,7 +706,9 @@ hr.logo-divider {
 }
 
 ul.new-list {
+  padding: 20px;
   margin-top:-20px;
+  padding-top: 0px;
 }
 
 section.newSection {
@@ -856,4 +858,92 @@ h2.new-section {
 .center-vertical {
   position:absolute;
   top:20%;
+}
+
+.carousel-indicators {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.carousel-indicators:hover {
+  -webkit-transform:scale(1.05);
+  -moz-transform:scale(1.05);
+  -ms-transform:scale(1.05);
+  -o-transform:scale(1.05);
+   transform:scale(1.05);
+}
+
+.column-container {
+    /*width: 900px;*/
+    /*width: 95%;*/
+    width: auto;
+
+    /*display: inline-block;*/
+    /*background-color: #ffcc33;*/
+    margin: 0 auto;
+    /*overflow: hidden;*/
+}
+
+.column-left {
+    /*min-width: 240px;*/
+    /*max-width: 240px;*/
+    /*max-width: 20%;*/
+    /*min-width: 20%;*/
+    /*width: 240px;*/
+    /*height: 100%*/
+
+    float: left;
+    height: auto;
+    width: 240px;
+    padding: 20px;
+    padding-bottom: 0px;
+    /*overflow: hidden;*/
+    /*background-color: #FF0000;*/
+    display: inline-block;
+}
+
+.column-right {
+
+    padding: 20px;
+
+    /*height: 100%;*/
+    /*max-width: 700px;*/
+    /*max-width: auto;*/
+    /*max-width: 400px;*/
+    /*max-width: 60%;*/
+    /*width: 80%;*/
+
+    float: right;
+    /*height: auto;*/
+    /*background-color: #0000FF;*/
+    display: inline-block;
+    /*overflow: hidden;*/
+}
+
+.experience-list {
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+.two-col {
+    display: flex;
+}
+
+.fixed-pic {
+  width: 260px;
+  padding: 20px;
+}
+
+.flex-box {
+  flex-grow: 1;
+  padding: 20px;
+  padding-left: 40px;
+  margin-right: 20px;
 }

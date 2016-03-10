@@ -25,7 +25,7 @@ list1Content:
 - line: Parse
 - line: Realm
 
-list2Title: " "
+list2Title: "&nbsp;&nbsp;"
 
 list2Content:
 - line: Paired Programming

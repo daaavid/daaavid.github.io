@@ -1,6 +1,7 @@
  <!-- Experience Section -->
+    <!-- <section class="success" id="experience"> -->
     <section class="success" id="experience">
-      <div class="container">
+      <div class="container" style="margin: 0 auto;">
         <div class="row">
           <div class="col-lg-12 text-center">
               <h2 class="new-section">E X P E R I E N C E</h2>
@@ -12,54 +13,73 @@
           {% else %}
           {% if post.experience %}
             <!-- <div class="col-lg-10 left" style="padding-bottom:60px"> -->
-            <div class="col-lg-11 center" style="padding-bottom:60px;">
-              <img src="/img/resume_logos/{{ post.image }}" width="200" align="left" style="margin: 40px 40px; margin-top:0px" />
-              <h3>
-                {% if post.urlpath %}
-                <a href=
-                "{{ post.urlpath }}"
-                target="_blank">
-                {{ post.title }}
-                </a>
-                {% else %}
-                  {{ post.title }}
-                {% endif %}
-              </h3>
+            <!-- <div class="col-lg-11 center" style="padding-bottom:60px;"> -->
+            <!-- <div class="col-lg-12" style="padding-bottom:60px;"> -->
+            <div class="row" style="padding-bottom:60px;">
+            <div class="column-container">
+              <div class="fixed-pic">
+                <img src="/img/resume_logos/{{ post.image }}" align="left" style="width:inherit; padding:20px; padding-left:40px;"/>
+              </div>
+              <div class="flex-box">
+                <div>
+                  <h3 style="margin-top:0px">
+                    {% if post.urlpath %}
+                    <a href=
+                    "{{ post.urlpath }}"
+                    target="_blank">
+                    {{ post.title }}
+                    </a>
+                    {% else %}
+                      {{ post.title }}
+                    {% endif %}
+                  </h3>
 
-              <h4 class="short-margin">{{ post.contact }}</h4>
+                  <h4 class="short-margin">{{ post.contact }}</h4>
+                </div>
 
-              <h4 style="margin-top:10px">{{ post.job }}</h4>
-              <h5 class="short-margin">{{ post.dates }}</h5>
+                <span style="background-color:black; white-space: nowrap;">
+                <p>
+                  <h4 style="margin-top:10px">
+                    {{ post.job }} <br />
+                    <h5 class="short-margin">{{ post.dates }}</h5>
+                  </h4>
 
-              <p class="short-margin">
-                {{ post.content }}
-              </p>
+                </p>
 
-              <div class="row" style="padding-top:20px;">
+              </span>
+
+                <p class="short-margin">
+                  {{ post.content }}
+                </p>
+              </div>
+
+              <div class="clear"></div>
+            </div>
+            <!-- <div class="row" style="padding-top:20px;"> -->
+            <div class="experience-list">
+              <div class="footer-col col-md-4">
+                <h4>{{ post.list1Title }}</h4>
+                <ul class="new-list">
+                  {% for line in post.list1Content %}
+                    <li>
+                      {{ line.line }}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+              {% if post.list2Title %}
                 <div class="footer-col col-md-4">
-                  <h4> &nbsp;&nbsp; {{ post.list1Title }}</h4>
+                  <h4>{{ post.list2Title }}</h4>
                   <ul class="new-list">
-                    {% for line in post.list1Content %}
+                    {% for line in post.list2Content %}
                       <li>
                         {{ line.line }}
                       </li>
                     {% endfor %}
                   </ul>
                 </div>
-                {% if post.list2Title %}
-                  <div class="footer-col col-md-4">
-                    <h4> &nbsp;&nbsp; {{ post.list2Title }}</h4>
-                    <ul class="new-list">
-                      {% for line in post.list2Content %}
-                        <li>
-                          {{ line.line }}
-                        </li>
-                      {% endfor %}
-                    </ul>
-                  </div>
-                {% endif %}
-              </div>
-
+              {% endif %}
+            </div>
             </div>
           {% endif %}
           {% endif %}

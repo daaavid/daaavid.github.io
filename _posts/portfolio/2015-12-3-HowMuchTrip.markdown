@@ -3,18 +3,10 @@ layout: default
 modal-id: 1
 title: How Much Trip
 date: 2015-12-3
-carouselId: HowMuchTripCarousel
-carouselImg0: /HowMuchTrip/0.png
-carouselImg1: /HowMuchTrip/1.png
-carouselImg2: /HowMuchTrip/2.png
-carouselImg3: /HowMuchTrip/3.png
-carouselImg4: /HowMuchTrip/4.png
-carouselImg5: /HowMuchTrip/5.png
-carouselImg6: /HowMuchTrip/6.png
-carouselImg7: /HowMuchTrip/7.png
-carouselImg8: /HowMuchTrip/8.png
-presentationImg: /HowMuchTrip/0.png
-alt: image-alt
+
+imgCount: 8
+presentationImg: 0
+
 project-date: December 2015
 client: The Iron Yard
 clientURL: https://www.theironyard.com

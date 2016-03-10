@@ -3,18 +3,10 @@ layout: default
 modal-id: 6
 title: Todo
 date: 2015-01-10
-carouselId: TodoCarousel
-carouselImg0: /Todo/1.png
-carouselImg1: /Todo/2.png
-carouselImg2: /Todo/3.png
-carouselImg3: /Todo/4.png
-carouselImg4: /Todo/5.png
-carouselImg5: /Todo/6.png
-carouselImg6: /Todo/7.png
-carouselImg7: /Todo/1.png
-carouselImg8: /Todo/2.png
-presentationImg: /Todo/4.png
-alt: image-alt
+
+imgCount: 7
+presentationImg: 4
+
 project-date: October 2015
 client: The Iron Yard
 clientURL: https://www.theironyard.com
