@@ -952,6 +952,7 @@ div.iphone {
   width: 332px;
   height: 560px;
   background: url(/img/portfolio/iphone-frame.png) no-repeat bottom center scroll;
+  margin-bottom: 20px;
 }
 
 img.img-iphone {
