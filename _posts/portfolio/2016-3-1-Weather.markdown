@@ -5,8 +5,8 @@ title: Weather
 date: 2016-3-1
 
 imgCount: 2
-gifCount: 4
-presentationImg: 1
+gifCount: 5
+presentationImg: 4
 
 data-interval: 10000
 iphone-frame: sure thing
