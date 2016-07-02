@@ -26,11 +26,13 @@ I'm currently the sole Mobile Developer at Fattmerchant; a B2B company that focu
 
 I spend most of my time working on the FattPay mobile application -- a virtual terminal mobile app that lets the user do things like:
 
-• view transactional activity
-• send receipts
-• create and send invoices
-• create, edit, or delete customers
-• process card-present transactions with a mobile card reader
-• process card-not-present transactions with manual entry or card scanning via the hardware camera
+<ul>
+<li>view transactional activity</li>
+<li>send receipts</li>
+<li>create and send invoices</li>
+<li>create, edit, or delete customers</li>
+<li>process card-present transactions with a mobile card reader</li>
+<li>process card-not-present transactions with manual entry or card scanning via the hardware camera</li>
+</ul>
 
 So far, I've managed the entire UI, UX, and codebase. The application is on the app store <a href="https://itunes.apple.com/us/app/fattpay/id1089292339?mt=8" target="_blank">here</a>.
